@@ -1,0 +1,41 @@
+{
+  "name": "ensure-types",
+  "version": "1.0.0",
+  "description": "Simple helpers to ensure uncertain interfaces in typescript",
+  "scripts": {
+    "cleanup": "rimraf dist",
+    "test": "jest",
+    "prebuild": "yarn cleanup",
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "Artur Gladun <art.gladun@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/artgladun/ensure-types.git",
+  "keywords": [
+    "type",
+    "types",
+    "type-check",
+    "type-checking",
+    "interface",
+    "interfaces",
+    "interface-check",
+    "interface-checking",
+    "data",
+    "contract",
+    "safe",
+    "safety"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/lodash": "^4.14.138",
+    "@types/node": "^12.7.4",
+    "jest": "^24.9.0",
+    "rimraf": "^3.0.0",
+    "ts-jest": "^24.0.2",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.2"
+  }
+}
