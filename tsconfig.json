@@ -8,7 +8,10 @@
     "removeComments": true,
     "importHelpers": true,
     "strict": true,
-    "baseUrl": "./src"
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node"
   },
   "exclude": ["node_modules", "dist", "src/**/*.spec.ts"]
 }
