@@ -7,13 +7,12 @@
     "test": "jest",
     "prebuild": "yarn cleanup",
     "build": "tsc -p tsconfig.json",
-    "prepublish": "yarn build"
+    "prepare": "yarn build"
   },
+  "main": "dist/ensure-types.js",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
-  "main": "dist/index.js",
   "author": "Artur Gladun <art.gladun@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/artgladun/ensure-types.git",
